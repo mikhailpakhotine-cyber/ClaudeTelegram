@@ -1,0 +1,16 @@
+{
+  "name": "claudetelegram",
+  "version": "1.0.0",
+  "description": "Philosophy of Atomic Heart - Interactive exploration of AI consciousness, transhumanism, and Soviet scientism",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "deploy": "echo 'Push to GitHub to deploy to GitHub Pages'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:60421/git/mikhailpakhotine-cyber/ClaudeTelegram"
+  },
+  "keywords": ["philosophy", "atomic-heart", "ai-consciousness", "transhumanism", "scientism"],
+  "author": "",
+  "license": "ISC"
+}

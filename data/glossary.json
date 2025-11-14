@@ -1,0 +1,144 @@
+{
+  "terms": [
+    {
+      "term": "Consciousness",
+      "category": "ai-consciousness",
+      "definition": "The state of being aware of and able to think about one's own existence, sensations, thoughts, and surroundings. Consciousness includes both awareness (access consciousness) and subjective experience (phenomenal consciousness).",
+      "relevance": "Central to evaluating whether Atomic Heart's AI entities are truly conscious or merely simulating consciousness through sophisticated programming. The game forces us to ask: what evidence would prove machine consciousness?",
+      "related": ["Qualia", "Hard Problem of Consciousness", "Phenomenal Consciousness", "Access Consciousness"]
+    },
+    {
+      "term": "Qualia",
+      "category": "ai-consciousness",
+      "definition": "The subjective, qualitative aspects of conscious experience—what it's like to experience something (like the redness of red, the pain of a headache, or the taste of chocolate). Qualia are private, ineffable, and directly accessible only to the experiencing subject.",
+      "relevance": "Key to asking whether robots in Atomic Heart have genuine subjective experiences, or whether they process information without any accompanying 'feel' to their operations. Do the robots experience anything, or are they philosophical zombies?",
+      "related": ["Consciousness", "Hard Problem of Consciousness", "Philosophical Zombies"]
+    },
+    {
+      "term": "Functionalism",
+      "category": "ai-consciousness",
+      "definition": "The theory that mental states are defined by their functional roles—what they do and how they relate to inputs, outputs, and other mental states—rather than by their physical makeup. On this view, what matters for having a mind is the pattern of functional organization, not the material substrate.",
+      "relevance": "If functionalism is true, Atomic Heart's AIs could be genuinely conscious as long as they implement the right functional organization, regardless of being silicon-based rather than carbon-based. This makes the game's AI consciousness philosophically plausible.",
+      "related": ["Multiple Realizability", "Chinese Room", "Substrate Independence", "Computationalism"]
+    },
+    {
+      "term": "Chinese Room",
+      "category": "ai-consciousness",
+      "definition": "John Searle's thought experiment in which a person who doesn't understand Chinese follows rules to manipulate Chinese symbols, producing appropriate responses to Chinese questions without understanding them. Searle argues this shows that computational symbol manipulation alone doesn't generate understanding or consciousness.",
+      "relevance": "Challenges the assumption that Atomic Heart's sophisticated AI behaviors necessarily indicate genuine consciousness or understanding. Even if an AI passes behavioral tests, it might be like the Chinese Room—processing symbols without comprehension.",
+      "related": ["Functionalism", "Strong AI", "Intentionality", "Syntax vs Semantics"]
+    },
+    {
+      "term": "Hard Problem of Consciousness",
+      "category": "ai-consciousness",
+      "definition": "David Chalmers' term for the problem of explaining why and how physical processes in the brain give rise to subjective experience—why there is 'something it is like' to be conscious. This contrasts with 'easy problems' of explaining cognitive functions.",
+      "relevance": "The fundamental challenge in determining whether Atomic Heart's AIs are conscious: even if we understand their information processing (the easy problems), why would that processing be accompanied by subjective experience (the hard problem)?",
+      "related": ["Consciousness", "Qualia", "Explanatory Gap", "Phenomenal Consciousness"]
+    },
+    {
+      "term": "Transhumanism",
+      "category": "transhumanism",
+      "definition": "The intellectual and cultural movement supporting the use of science and technology to enhance human mental and physical characteristics and capacities, potentially leading to a 'posthuman' condition that radically exceeds current human limitations.",
+      "relevance": "The core philosophy behind Atomic Heart's human enhancement technologies—the belief that we should use technology to transcend our biological limitations rather than accepting them as fixed constraints.",
+      "related": ["Posthuman", "Enhancement", "Bioconservatism", "Morphological Freedom"]
+    },
+    {
+      "term": "Posthuman",
+      "category": "transhumanism",
+      "definition": "A hypothetical future being whose basic capacities so radically exceed those of present humans as to be no longer unambiguously human by current standards. Posthumans might have vastly extended lifespans, superior cognitive abilities, or forms of experience unavailable to current humans.",
+      "relevance": "The potential end state of enhancement in Atomic Heart—beings who have been so radically modified through polymer integration and neural enhancement that they transcend the category of 'human' as we currently understand it.",
+      "related": ["Transhumanism", "Species Boundary", "Human Essence", "Enhancement"]
+    },
+    {
+      "term": "Bioconservatism",
+      "category": "transhumanism",
+      "definition": "The position that opposes the use of technology to modify human nature, often emphasizing the value of our natural biological state, the importance of accepting our 'giftedness,' and warning against the hubris of radical enhancement.",
+      "relevance": "Represents the philosophical opposition to Atomic Heart's enhancement technologies, questioning whether technological 'progress' actually improves human life or undermines essential human values like humility, solidarity, and acceptance of natural limits.",
+      "related": ["Transhumanism", "Giftedness", "Human Nature", "Dignity"]
+    },
+    {
+      "term": "Personal Identity",
+      "category": "transhumanism",
+      "definition": "The philosophical question of what makes a person the same individual over time, despite physical and psychological changes. Theories include psychological continuity (memory and personality), bodily continuity, and narrative identity.",
+      "relevance": "Critical for evaluating enhancement in Atomic Heart: if someone's biology is extensively modified with polymer technology and neural implants, are they still the same person? What constitutes continuity of identity through radical transformation?",
+      "related": ["Ship of Theseus", "Psychological Continuity", "Numerical Identity", "Fission"]
+    },
+    {
+      "term": "Ship of Theseus",
+      "category": "transhumanism",
+      "definition": "An ancient paradox: if a ship's parts are gradually replaced until none of the original parts remain, is it still the same ship? Applied to persons: if we gradually replace biological parts with synthetic ones, when (if ever) does someone become a different person?",
+      "relevance": "Directly applicable to Atomic Heart's gradual human enhancement—at what point does enhancement become replacement of the person? Is there a threshold beyond which enhanced humans are no longer 'themselves'?",
+      "related": ["Personal Identity", "Numerical Identity", "Essentialism", "Constitution"]
+    },
+    {
+      "term": "Scientism",
+      "category": "scientism",
+      "definition": "The belief that science and the scientific method are the best or only way to render truth about the world and reality, and that scientific knowledge is the most authoritative (or only legitimate) form of knowledge. Often includes the view that all meaningful questions can ultimately be answered by science.",
+      "relevance": "The ideological foundation of Atomic Heart's alternate Soviet Union—the faith that scientific knowledge and methods can solve all problems, including social, political, and ethical ones. The game explores both the power and the potential pitfalls of this worldview.",
+      "related": ["Positivism", "Dialectical Materialism", "Empiricism", "Reductionism"]
+    },
+    {
+      "term": "Dialectical Materialism",
+      "category": "scientism",
+      "definition": "The Marxist philosophical framework combining Hegelian dialectics (thesis-antithesis-synthesis) with materialism (reality is fundamentally physical). It holds that reality is material and governed by laws of dialectical development, with contradictions driving historical and natural change.",
+      "relevance": "The official philosophy of Atomic Heart's Soviet Union, providing the theoretical justification for scientific planning, technological utopianism, and the belief that society can be rationally engineered according to scientific principles.",
+      "related": ["Scientism", "Historical Materialism", "Marxism", "Scientific Socialism"]
+    },
+    {
+      "term": "Positivism",
+      "category": "scientism",
+      "definition": "The philosophical view that valid knowledge is based on sense experience and can be advanced only through observation and experiment. Positivism typically emphasizes the unity of scientific method and rejects metaphysical speculation.",
+      "relevance": "Underlies Atomic Heart's Soviet approach to knowledge—the belief that all legitimate questions can be answered through scientific investigation, and that metaphysical or religious questions are meaningless.",
+      "related": ["Scientism", "Empiricism", "Logical Positivism", "Verification Principle"]
+    },
+    {
+      "term": "Utopianism",
+      "category": "scientism",
+      "definition": "The belief in or pursuit of an ideal society, often through rational planning and social engineering. Utopianism involves imagining and working toward a perfect social order, typically achieved through human reason and effort.",
+      "relevance": "The goal driving Atomic Heart's technological society—the belief that scientific and technological progress, combined with rational planning, can create a perfect social order free from the problems that plague current societies.",
+      "related": ["Scientism", "Progress", "Technocracy", "Social Engineering"]
+    },
+    {
+      "term": "Emergence",
+      "category": "ai-consciousness",
+      "definition": "The phenomenon where complex systems exhibit properties and behaviors that their individual components do not possess—'the whole is greater than the sum of its parts.' Emergent properties cannot be reduced to or predicted from component properties alone.",
+      "relevance": "Potentially explains how consciousness could arise in Atomic Heart's complex AI systems—as an emergent property of sufficient computational complexity, integration, and the right kind of information processing architecture.",
+      "related": ["Consciousness", "Complexity", "Systems Theory", "Reductionism"]
+    },
+    {
+      "term": "Substrate Independence",
+      "category": "ai-consciousness",
+      "definition": "The hypothesis that consciousness and mental states don't depend on being implemented in biological neurons, but could be realized in any substrate (silicon, quantum computers, etc.) with the right functional organization. Consciousness is 'substrate-independent.'",
+      "relevance": "If true, consciousness in Atomic Heart could be realized in silicon-based AI systems just as genuinely as in biological brains. The game invites us to consider whether substrate matters, or only functional organization.",
+      "related": ["Functionalism", "Multiple Realizability", "Mind Uploading", "Materialism"]
+    },
+    {
+      "term": "Strong AI",
+      "category": "ai-consciousness",
+      "definition": "The thesis that appropriately programmed computers with the right inputs and outputs would have mental states—they would literally think, understand, and be conscious, not merely simulate these capacities. Contrasts with 'weak AI,' which holds that computers only simulate mental processes.",
+      "relevance": "The question of whether Atomic Heart's sophisticated AIs exemplify strong or weak AI is central to their moral and philosophical status. Are they genuinely conscious beings, or sophisticated simulations?",
+      "related": ["Chinese Room", "Functionalism", "Consciousness", "Turing Test"]
+    },
+    {
+      "term": "Singularity",
+      "category": "ai-consciousness",
+      "definition": "A hypothetical future point when artificial intelligence surpasses human intelligence and begins to recursively improve itself, leading to rapid and potentially uncontrollable technological growth that fundamentally transforms civilization.",
+      "relevance": "Atomic Heart's advanced AI systems may represent a post-singularity world where AI has exceeded human capabilities, raising questions about human agency, purpose, and survival in a world of superintelligent machines.",
+      "related": ["Superintelligence", "Exponential Growth", "Existential Risk", "Technological Change"]
+    },
+    {
+      "term": "Mind Uploading",
+      "category": "transhumanism",
+      "definition": "The hypothetical process of transferring or copying a human mind (including memories, personality, and consciousness) from biological brain to a computer substrate, potentially achieving digital immortality.",
+      "relevance": "Experiments in Atomic Heart with consciousness transfer touch on this concept, raising profound questions: Is the upload the same person? Can consciousness survive substrate transfer? Is digital existence truly living?",
+      "related": ["Personal Identity", "Substrate Independence", "Duplication Problem", "Immortality"]
+    },
+    {
+      "term": "Cyborg",
+      "category": "transhumanism",
+      "definition": "A being with both biological and artificial (mechanical/electronic) parts. From 'cybernetic organism.' Cyborgs represent the integration of human biology with technology.",
+      "relevance": "Many characters in Atomic Heart are cyborgs to varying degrees, with polymer integration and neural implants blurring the line between human and machine. This raises questions about the boundaries of the human.",
+      "related": ["Transhumanism", "Human-Machine Interface", "Posthuman", "Embodiment"]
+    }
+  ]
+}

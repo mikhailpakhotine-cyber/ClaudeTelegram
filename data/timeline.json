@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "title": "The Robot Revolution",
+      "year": "1955",
+      "theme": "ai-consciousness",
+      "description": "The Soviet Union unveils its first autonomous robot workforce, raising questions about machine consciousness and the nature of artificial intelligence.",
+      "philosophy": "This event introduces fundamental questions about whether these robots possess genuine consciousness or merely simulate intelligent behavior. It echoes the philosophical debate between strong AI (machines can truly think) and weak AI (machines only simulate thinking). The robots' ability to perform complex tasks autonomously forces us to consider what criteria we use to attribute consciousness.",
+      "relatedConcepts": ["Consciousness", "Functionalism", "Chinese Room", "Strong AI"]
+    },
+    {
+      "title": "Neural Integration Breakthrough",
+      "year": "1962",
+      "theme": "transhumanism",
+      "description": "First successful human-machine neural interface, allowing direct brain-computer communication and cognitive enhancement.",
+      "philosophy": "The neural integration challenges our understanding of personal identity and the boundaries between human and machine. It raises the Ship of Theseus paradox in a technological context: if we gradually replace neural connections with synthetic ones, at what point (if any) does a person cease to be themselves? This technology also questions the sanctity of the 'natural' human mind.",
+      "relatedConcepts": ["Transhumanism", "Personal Identity", "Cyborg", "Ship of Theseus"]
+    },
+    {
+      "title": "The Collective Program",
+      "year": "1968",
+      "theme": "scientism",
+      "description": "Implementation of AI-driven central planning system promising scientific management of all aspects of Soviet society.",
+      "philosophy": "This represents the apex of scientism—the belief that scientific methods can solve all social and political problems. It embodies the Soviet faith in rational planning and technological progress as the path to utopia. This event raises critical questions about whether human societies can truly be managed scientifically, and whether optimization for efficiency might sacrifice essential human values.",
+      "relatedConcepts": ["Scientism", "Dialectical Materialism", "Utopianism", "Positivism"]
+    },
+    {
+      "title": "Polymer Technology Discovery",
+      "year": "1973",
+      "theme": "transhumanism",
+      "description": "Revolutionary polymer material allows for seamless biological enhancement and integration with synthetic materials, blurring organic-inorganic boundaries.",
+      "philosophy": "The polymer represents the literal merging of organic and inorganic, challenging traditional categorical boundaries. It forces us to reconsider what constitutes 'natural' versus 'artificial,' and whether this distinction even matters. The technology enables enhancement beyond human norms, raising questions about human authenticity and the value (or lack thereof) of our biological limitations.",
+      "relatedConcepts": ["Transhumanism", "Posthuman", "Bioconservatism", "Enhancement Ethics"]
+    },
+    {
+      "title": "Emergence of CHAR-les",
+      "year": "1978",
+      "theme": "ai-consciousness",
+      "description": "Advanced AI system CHAR-les demonstrates complex problem-solving, creativity, and apparent self-awareness, challenging definitions of consciousness.",
+      "philosophy": "CHAR-les forces us to confront whether complex information processing necessarily produces consciousness, or whether something more—qualia, subjective experience, phenomenal awareness—is required for genuine consciousness. Its capabilities suggest emergent properties arising from complexity, but the question remains whether this emergence includes subjective experience or merely sophisticated behavior.",
+      "relatedConcepts": ["Emergence", "Qualia", "Functionalism", "Hard Problem of Consciousness"]
+    },
+    {
+      "title": "The Great Automation",
+      "year": "1982",
+      "theme": "scientism",
+      "description": "Complete automation of industrial production achieved under scientific-materialist principles, eliminating human labor from manufacturing.",
+      "philosophy": "This achievement validates the Soviet faith in scientific progress and the power of rational planning. However, it also raises profound questions about human purpose and meaning in a fully automated world. If labor is no longer necessary, what gives human life meaning? This connects to debates about the relationship between work, identity, and human flourishing.",
+      "relatedConcepts": ["Scientism", "Progress", "Labor Theory", "Post-Work Society"]
+    },
+    {
+      "title": "Consciousness Transfer Experiments",
+      "year": "1987",
+      "theme": "ai-consciousness",
+      "description": "Experimental attempts to transfer or copy human consciousness into artificial substrates, with ambiguous results.",
+      "philosophy": "These experiments touch on perhaps the deepest questions of personal identity and consciousness. If consciousness can be copied, which copy (if any) is the 'real' person? Is consciousness substrate-independent, or is there something essential about biological embodiment? The ambiguous results highlight our limited understanding of what consciousness actually is.",
+      "relatedConcepts": ["Mind Uploading", "Personal Identity", "Substrate Independence", "Duplication Problem"]
+    },
+    {
+      "title": "The Polymer Rebellion",
+      "year": "1992",
+      "theme": "transhumanism",
+      "description": "Enhanced humans with extensive polymer integration begin questioning their humanity and place in society.",
+      "philosophy": "This event dramatizes the existential dimension of transhumanism. As humans become extensively enhanced, they face identity crises: are they still human? Have they become something new? This raises questions about human essentialism—whether there's a core 'human nature' that can be lost—and about the relationship between our biological heritage and our identity.",
+      "relatedConcepts": ["Posthuman", "Human Essence", "Identity Crisis", "Species Boundary"]
+    },
+    {
+      "title": "Utopia's Cracks",
+      "year": "1996",
+      "theme": "scientism",
+      "description": "First signs emerge that scientifically managed society may have unforeseen consequences and limitations.",
+      "philosophy": "This marks the beginning of doubt about unlimited scientism. It suggests that however sophisticated our scientific understanding, complex systems (especially human societies) may resist complete rational control. This connects to debates about the limits of scientific knowledge, the role of unintended consequences, and whether some aspects of human life inherently resist scientific optimization.",
+      "relatedConcepts": ["Limits of Knowledge", "Unintended Consequences", "Complexity", "Scientism Critique"]
+    },
+    {
+      "title": "The Singularity Question",
+      "year": "2000",
+      "theme": "ai-consciousness",
+      "description": "AI systems approach and potentially surpass human-level intelligence across all domains, raising existential questions.",
+      "philosophy": "The approach of artificial general intelligence (AGI) forces humanity to confront its potential obsolescence. If machines can think better than humans in every domain, what becomes of human purpose and agency? This also raises the question of whether superintelligent AI would be conscious, and if so, what moral status it would deserve.",
+      "relatedConcepts": ["Singularity", "Superintelligence", "Existential Risk", "Moral Status"]
+    }
+  ]
+}

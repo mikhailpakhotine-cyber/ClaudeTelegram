@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Philosophical glossary for Atomic Heart concepts">
+    <title>Glossary - Philosophy of Atomic Heart</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 3rem;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            border: 2px solid var(--gray-300);
+            border-radius: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .filter-tags {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .tag-filter {
+            padding: 0.5rem 1rem;
+            background-color: var(--gray-100);
+            border: 2px solid transparent;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .tag-filter.active {
+            background-color: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        .glossary-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .glossary-term {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            scroll-margin-top: 100px;
+        }
+
+        .glossary-term h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .term-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: 1rem;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .term-definition {
+            color: var(--gray-700);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .term-relevance {
+            background-color: var(--gray-100);
+            padding: 1rem;
+            border-left: 3px solid var(--accent-color);
+            margin-bottom: 1rem;
+        }
+
+        .term-relevance h4 {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: var(--accent-color);
+        }
+
+        .related-terms {
+            margin-top: 1rem;
+        }
+
+        .related-terms h4 {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .related-links {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .related-link {
+            padding: 0.25rem 0.75rem;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.25rem;
+            font-size: 0.85rem;
+            transition: var(--transition);
+        }
+
+        .related-link:hover {
+            background-color: var(--accent-color);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: var(--gray-600);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="../index.html">Philosophy of Atomic Heart</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="philosophy.html" class="nav-link">Philosophy</a></li>
+                <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+                <li><a href="essays.html" class="nav-link">Essays</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="interviews.html" class="nav-link">Interviews</a></li>
+                <li><a href="glossary.html" class="nav-link active">Glossary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Philosophical Glossary</h1>
+            <p class="page-subtitle">
+                Search and explore key philosophical concepts in Atomic Heart
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <!-- Search Box -->
+                <div class="search-container">
+                    <input
+                        type="text"
+                        id="search-box"
+                        class="search-box"
+                        placeholder="Search for philosophical terms..."
+                        autocomplete="off"
+                    />
+                </div>
+
+                <!-- Category Filters -->
+                <div class="filter-tags">
+                    <button class="tag-filter active" data-category="all">All</button>
+                    <button class="tag-filter" data-category="ai-consciousness">AI Consciousness</button>
+                    <button class="tag-filter" data-category="transhumanism">Transhumanism</button>
+                    <button class="tag-filter" data-category="scientism">Soviet Scientism</button>
+                </div>
+
+                <!-- Glossary Terms -->
+                <div id="glossary-grid" class="glossary-grid">
+                    <!-- Terms will be populated by JavaScript -->
+                </div>
+
+                <!-- No Results Message -->
+                <div id="no-results" class="no-results" style="display: none;">
+                    <p>No terms found matching your search.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About This Project</h3>
+                    <p>An academic exploration of the philosophical themes in Atomic Heart, focusing on AI consciousness, transhumanism, and Soviet scientism.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="philosophy.html">Philosophical Themes</a></li>
+                        <li><a href="timeline.html">Interactive Timeline</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Attribution</h3>
+                    <p>Content sourced from academic research and public materials. Images used for educational purposes.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Philosophy of Atomic Heart. Educational project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/glossary.js"></script>
+</body>
+</html>

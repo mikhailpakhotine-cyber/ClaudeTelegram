@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visual gallery of Atomic Heart screenshots and concept art">
+    <title>Gallery - Philosophy of Atomic Heart</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .gallery-item {
+            background-color: white;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: 250px;
+            background-color: var(--gray-100);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-600);
+            font-size: 3rem;
+        }
+
+        .gallery-caption {
+            padding: 1.5rem;
+        }
+
+        .gallery-caption h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .gallery-caption p {
+            font-size: 0.9rem;
+            color: var(--gray-600);
+            margin-bottom: 0.75rem;
+        }
+
+        .gallery-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .gallery-tag {
+            padding: 0.25rem 0.75rem;
+            background-color: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: 1rem;
+            font-size: 0.75rem;
+        }
+
+        .placeholder-text {
+            text-align: center;
+            color: var(--gray-500);
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="../index.html">Philosophy of Atomic Heart</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="philosophy.html" class="nav-link">Philosophy</a></li>
+                <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+                <li><a href="essays.html" class="nav-link">Essays</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="interviews.html" class="nav-link">Interviews</a></li>
+                <li><a href="glossary.html" class="nav-link">Glossary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Visual Gallery</h1>
+            <p class="page-subtitle">
+                Game screenshots and concept art illustrating philosophical themes
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🤖</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Autonomous Robot Workers</h3>
+                            <p>Soviet robot workforce demonstrating autonomous behavior and complex decision-making capabilities.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">AI Consciousness</span>
+                                <span class="gallery-tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🧠</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Neural Integration Interface</h3>
+                            <p>Human-machine neural interface technology enabling direct brain-computer communication.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Transhumanism</span>
+                                <span class="gallery-tag">Enhancement</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">⚛️</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Soviet Scientific Complex</h3>
+                            <p>State-of-the-art research facility showcasing the Soviet commitment to scientific progress.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Soviet Scientism</span>
+                                <span class="gallery-tag">Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🔬</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Polymer Technology</h3>
+                            <p>Revolutionary polymer material enabling seamless biological-synthetic integration.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Transhumanism</span>
+                                <span class="gallery-tag">Technology</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🏭</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Automated Production Facility</h3>
+                            <p>Fully automated industrial complex representing the triumph of scientific planning.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Soviet Scientism</span>
+                                <span class="gallery-tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🎭</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>CHAR-les AI System</h3>
+                            <p>Advanced AI demonstrating apparent creativity, self-awareness, and complex problem-solving.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">AI Consciousness</span>
+                                <span class="gallery-tag">Emergence</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 7 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">⚙️</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Enhanced Human Subject</h3>
+                            <p>Human with extensive polymer integration, blurring the line between biological and synthetic.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Transhumanism</span>
+                                <span class="gallery-tag">Cyborg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 8 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">🌆</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Utopian Soviet City</h3>
+                            <p>The architectural manifestation of scientific utopianism and rational urban planning.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Soviet Scientism</span>
+                                <span class="gallery-tag">Utopianism</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 9 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <div class="placeholder-text">💭</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Consciousness Transfer Experiment</h3>
+                            <p>Laboratory setup for experimental mind uploading and consciousness transfer research.</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">AI Consciousness</span>
+                                <span class="gallery-tag">Transhumanism</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Note about images -->
+                <div class="content-section" style="margin-top: 3rem;">
+                    <h3>About the Gallery</h3>
+                    <p>
+                        This gallery presents visual representations of key philosophical themes in Atomic Heart. The images illustrate
+                        the game's exploration of AI consciousness, human enhancement, and Soviet scientism. Each image is accompanied
+                        by a philosophical context explaining its significance to the broader themes of the project.
+                    </p>
+                    <p>
+                        Images sourced from publicly available materials and used for educational purposes. Full attribution provided
+                        where applicable.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About This Project</h3>
+                    <p>An academic exploration of the philosophical themes in Atomic Heart, focusing on AI consciousness, transhumanism, and Soviet scientism.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="philosophy.html">Philosophical Themes</a></li>
+                        <li><a href="timeline.html">Interactive Timeline</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Attribution</h3>
+                    <p>Content sourced from academic research and public materials. Images used for educational purposes.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Philosophy of Atomic Heart. Educational project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
